@@ -71,7 +71,7 @@
 @media(max-width: 480px){
     .text{
         font-size: 35px;
-        top: 100px;  
+        top: 60px;  
         overflow: hidden;
         text-align: center;
         text-overflow: ellipsis;
@@ -82,7 +82,7 @@
 @media(max-width: 480px){
     .text1{
         font-size: 20px;
-        top: 200px;  
+        top: 170px;  
         overflow: hidden;
         text-align: center;
         text-overflow: ellipsis; 
