@@ -204,11 +204,33 @@ html, body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-@media (max-width: 480px){
-    .card{
-     
-    }
+@media (max-width: 480px) {
+  .places {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    gap: 100px; 
+    box-sizing: border-box; 
+    margin-top: 40px;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;  
+  }
+
+  .card img {
+    height: 150px;
+  }
+
+  .card p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
 }
+
+
 
 .para3 {
     display: flex;
@@ -257,6 +279,31 @@ html, body {
   font-size: 17px;
 }
 
+@media (max-width: 480px) {
+    .search {
+        flex-direction: column;  
+        gap: 10px;
+        align-items: stretch; 
+    }
+
+    .search-input {
+        padding: 8px 10px;
+        width: 75%;      
+        max-width: 400px; 
+        margin: 0 auto; 
+        border-radius: 10px;  
+    }
+
+    .search-input2 {
+        padding: 8px 20px;
+        width: auto; 
+        align-self: center; 
+        border-radius: 10px;
+        font-size: 14px;
+    }
+}
+
+
 .vacation {
     display: flex;
     justify-content: center;
@@ -278,6 +325,32 @@ html, body {
 .vacation2 {
     font-size: 40px;
     font-weight: normal;
+}
+
+@media (max-width: 480px) {
+    .vacation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        padding: 8px 20px;  
+        border-radius: 20px;
+        gap: 5px;
+    }
+
+    .vacation1 {
+        font-size: 28px;     
+        color: #853989;
+        font-weight: normal;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+
+    .vacation2 {
+        font-size: 22px;    
+        font-weight: normal;
+        text-align: center;
+    }
 }
 
 .shimla {
@@ -364,6 +437,41 @@ html, body {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@media (max-width: 480px) {
+    .logo {
+        display: flex;
+        flex-wrap: wrap;         
+        justify-content: center;
+        gap: 20px;               
+        margin: 20px 0 0 0;
+    }
+
+    .logo-wrapper {
+        flex: 0 0 45%;           
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 15px;    
+    }
+
+    .logo1 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo1 img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .logo-wrapper p {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+}
+
 
 .form-container {
   display: flex;
@@ -524,12 +632,12 @@ input {
   }
 
   .form-row {
-    flex-direction: column;  /* stacked fields */
+    flex-direction: column;  
     gap: 15px;
   }
 
   .contact-group {
-    width: 100%;             /* full width mobile */
+    width: 100%;           
   }
 
   .form-group label {
@@ -546,6 +654,10 @@ input {
     font-size: 14px;
   }
 }
+
+
+
+
 
 
 
