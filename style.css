@@ -8,11 +8,11 @@ html, body {
   padding: 0%;
 }
 
-.container{
+/* .container{
     background-color: #f2f2f2;
     width: 100%;
     min-height: 100vh;
-}
+} */
 
 .nav{
     display: flex;
@@ -738,3 +738,17 @@ input {
 .social-icon img:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 480px) {
+  .social-icon {
+    gap: 20px; 
+    flex-wrap: wrap; 
+  }
+
+  .social-icon img {
+    width: 35px; 
+    height: 35px;
+  }
+}
+
+
