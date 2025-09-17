@@ -8,13 +8,50 @@ html, body {
   padding: 0%;
 }
 
-.nav{
-    display: flex;
-    justify-content: end;
-    gap: 30px;
-    margin-right: 80px;
-    padding-top: 15px;
-    font-size: larger;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;     
+}
+
+.frame {
+  width: auto;
+  height: 60px;
+  display: block;   
+}
+
+.logoframe{
+  width: auto;
+  height: 60px;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+  font-size: larger;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 480px) {
+  .header {
+    flex-direction: row;      
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .frame, .logoframe {
+    height: 40px;            
+  }
+
+  .nav {
+    flex-direction: row;     
+    gap: 15px;
+    font-size: 14px;           
+  }
 }
 
 #main {
