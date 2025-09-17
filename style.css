@@ -736,7 +736,8 @@ input {
 @media (max-width: 480px) {
   .social-icon {
     gap: 20px; 
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin-bottom: 10px; 
   }
 
   .social{
