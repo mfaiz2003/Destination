@@ -7,5 +7,7 @@ const slides = document.querySelectorAll(".slide");
       slides[index].classList.add("active");     
     }, 4000);
 
-
+  function toggleMenu() {
+    document.querySelector(".nav").classList.toggle("active");
+  }
    
