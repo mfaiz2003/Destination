@@ -289,9 +289,9 @@ html, body {
 
 @media (max-width: 480px) { 
   .places { 
-    padding-left: 20px;
-    padding-right: 20px; 
-   }
+    padding-left: 25px;
+    padding-right: 25px; 
+  }
 
    .card { 
     height: 220px;
@@ -305,7 +305,7 @@ html, body {
 }
   
   .card p { 
-    font-size: 20px;
+    font-size: 17px;
      margin: 20px 0; 
     } 
   }
