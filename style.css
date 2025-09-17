@@ -707,13 +707,34 @@ input {
   }
 }
 
-
-
-
-
-
-
 @media(max-width: 480px) {
   .nav { margin-right: 20px; gap: 15px; }
   .logo { gap: 20px; flex-wrap: wrap; justify-content: center; }
+}
+
+.social {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  gap: 50px; 
+  margin-top: 20px;
+}
+
+.social-icon img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain; 
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.social-icon img:hover {
+  transform: scale(1.1);
 }
