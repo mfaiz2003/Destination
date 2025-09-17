@@ -284,34 +284,22 @@ html, body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-@media (max-width: 480px) {
-  .places {
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 100%;                       
-    box-sizing: border-box;
-    margin-top: 50px;  
-    padding-top: 30px; 
-    justify-content: center;      
-  }
+@media (max-width: 480px) { 
+  .places { 
+    margin-top: 50px; 
+    padding-top: 30px;
+   }
 
-  .card {
-    width: 100%;
-    height: auto;
-    margin: 0 auto 30px auto;
+   .card { 
+    margin: 0 auto 30px auto; 
   }
-
-  .card img {
-    height: 150px;
-    width: 100%;
-    object-fit: cover;
-  }
-
-  .card p {
+  
+  .card p { 
     font-size: 16px;
-    margin: 10px 0;
+     margin: 10px 0; 
+    } 
   }
-}
+  
 
 .para3 {
     display: flex;
@@ -476,27 +464,13 @@ html, body {
 }
 
 @media (max-width: 480px) {
-  .places {
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 100%;                  
-    box-sizing: border-box;
+  .places {                  
     margin-top: 50px;  
-    padding-top: 30px; 
-    justify-content: center;      
+    padding-top: 30px;       
   }
 
   .shimla {
-    width: 100%;
-    height: 800px;
-    overflow: hidden;
     margin: 0 auto 30px auto;
-  }
-
-  .shimla img {
-    height: 800px;
-    width: 100%;
-    object-fit: cover;
   }
 
   .shimla p {
