@@ -17,4 +17,9 @@ const slides = document.querySelectorAll(".slide");
   setTimeout(()=>{
     heading.innerHTML ='Book Your <span class="highlight">Next Trip</span><br>with Us';
   }, 3000);
+
+  const color = document.getElementById("para");
+  setTimeout(()=>{
+    color.style.color ="red", "yellow", "green", "blue";
+  }, 2000);
    
