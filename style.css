@@ -273,7 +273,6 @@ html, body {
   overflow: hidden;
   text-align: center;
   box-shadow: 0 10px 16px rgba(0,0,0,0.1);
-  transition: transform 0.3s;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -287,9 +286,9 @@ html, body {
   display: block;
 }
 
-
 .card img:hover{
-  transform: scale(1.7);
+  transform: scale(1.65);
+  transition-duration:  1.5s ;
 }
 
 .card p{
@@ -299,6 +298,10 @@ html, body {
 }
 
 @media (max-width: 480px) { 
+  .card img:hover {
+    transform: scale(0);
+    transform: none; 
+}
   .places { 
     padding-left: 25px;
     padding-right: 25px; 
@@ -313,18 +316,13 @@ html, body {
   height: 160px;
   object-fit: cover;
   display: block;
+  transition: none;
 }
   
   .card p { 
     font-size: 17px;
      margin: 20px 0; 
     } 
-  }
-
-@media (any-hover: hover) and (any-pointer: fine) {
-  .card img:hover {
-    transform: scale(1.7);
-  }
 }
 
 .para3 {
@@ -656,6 +654,7 @@ input {
 .about-section h2 {
   font-size: 2rem;
   margin-bottom: 20px;
+  color: black;
 }
 
 .about-section h2 span {
@@ -771,7 +770,6 @@ input {
 @media (max-width: 480px){
   .made{
     font-size: 8px;
-    color: #EEEEEE;
   }
 
   .made h2{
@@ -786,7 +784,7 @@ input {
   margin-top: 20px;
 }
 
-.footer, h2{
+.footer h2{
   color: white;
 }
 
