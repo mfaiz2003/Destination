@@ -132,21 +132,14 @@ html, body {
 
 @media(max-width: 480px){
     .slide{
-        height: 30vh;
+        height: 25vh;
         width: 100%;
-        border-bottom-right-radius: 70px;
     }
 
     .main{
-        height: 30vh;
+        height: 25vh;
         width: 100%;
-        border-bottom-right-radius: 70px;
         margin-top: 10px;
-        margin: 0;
-        padding: 0;
-        top: 0;
-        left: 0;
-        right: 0;
   }
 }
 
@@ -171,7 +164,7 @@ html, body {
 @media(max-width: 480px){
     .text{
         font-size: 38px;
-        top: 110px;  
+        top: 90px;  
         overflow: hidden;
         text-align: center;
         text-overflow: ellipsis;
@@ -202,7 +195,7 @@ html, body {
 @media(max-width: 480px){
     .text1{
         font-size: 13px;
-        top: 200px;  
+        top: 170px;  
         overflow: hidden;
         text-align: center;
         text-overflow: ellipsis; 
@@ -250,7 +243,8 @@ html, body {
     margin-top: 10px; 
   }
    .suggestion {
-    padding: 10px 30px;     
+    padding: 10px 30px; 
+    height: 15px;    
   }
 
   .para{
