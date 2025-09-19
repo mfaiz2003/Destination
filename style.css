@@ -52,6 +52,7 @@ html, body {
   .frame, .logoframe {
     height: 40px;
     padding-top: 2px;
+    padding-bottom: 5px;
   }
 
   .nav {
@@ -139,7 +140,8 @@ html, body {
     .main{
         height: 30vh;
         width: 100%;
-        border-bottom-right-radius: 70px;  
+        border-bottom-right-radius: 70px;
+        margin-top: 10px;
         margin: 0;
         padding: 0;
         top: 0;
@@ -285,6 +287,7 @@ html, body {
   display: block;
 }
 
+
 .card img:hover{
   transform: scale(1.7);
 }
@@ -311,16 +314,18 @@ html, body {
   object-fit: cover;
   display: block;
 }
-
-.card img:active{
-  transform: scale(2);
-}
   
   .card p { 
     font-size: 17px;
      margin: 20px 0; 
     } 
   }
+
+@media (any-hover: hover) and (any-pointer: fine) {
+  .card img:hover {
+    transform: scale(1.7);
+  }
+}
 
 .para3 {
     display: flex;
