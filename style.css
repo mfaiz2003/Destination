@@ -132,7 +132,7 @@ html, body {
 
 @media(max-width: 480px){
     .slide{
-        height: 25vh;
+        height: 40vh;
         width: 100%;
     }
 
