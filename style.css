@@ -125,7 +125,6 @@ html, body {
     .slide{
         height: 40vh;
         width: 100%;
-        object-fit: fill;
     }
 
     .main{
@@ -156,7 +155,7 @@ html, body {
 @media(max-width: 480px){
     .text{
         font-size: 38px;
-        top: 110px;  
+        top: 140px;  
         overflow: hidden;
         text-align: center;
         text-overflow: ellipsis;
@@ -186,7 +185,7 @@ html, body {
 @media(max-width: 480px){
     .text1{
         font-size: 13px;
-        top: 200px;  
+        top: 240px;  
         overflow: hidden;
         text-align: center;
         text-overflow: ellipsis; 
