@@ -18,8 +18,9 @@ const slides = document.querySelectorAll(".slide");
     heading.innerHTML ='Book Your <span class="highlight">Next Trip</span><br>with Us';
   }, 3000);
 
-  const color = document.getElementById("para");
-  setTimeout(()=>{
-    color.style.color ="red", "yellow", "green", "blue";
-  }, 2000);
+
+const heading2 = document.getElementById("para");
+setTimeout(()=>{
+  heading2.innerHTML ='Humare Behtreen Sujhaab';
+}, 3000);
    

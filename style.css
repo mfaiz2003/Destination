@@ -241,6 +241,7 @@ html, body {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 10px ;
+  position: relative;
 }
 
 .card {
@@ -327,6 +328,52 @@ html, body {
     }
 }
 
+.plane {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 220px;
+   height: 220px;
+   position: absolute;
+   opacity: 0.5;
+  }
+
+.plane img{
+  display: flex;
+  justify-content: center;
+  width: 220px;
+  height: 220px;
+  padding-left: 30px;
+  transform: translateX(30);
+}
+
+@media(max-width: 480px){
+  .plane{
+    display: none;
+  }
+}
+
+.plan {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 105%;
+   height: 50vh;
+   opacity: 0.5;
+   position: relative;
+  }
+
+.plan img{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  object-fit: fill;
+  top: 120px;
+  width: 107%;
+  height: 50vh;
+  transform: translateX(30);
+}
+
 .para4 {
     font-weight: bolder;
     color: #853989;
@@ -338,7 +385,7 @@ html, body {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    gap: 10px; 
+    gap: 10px;
 }
 
 .search-input{
@@ -619,14 +666,19 @@ input {
   background: #853989;
 }
 
-.about-section {
-  max-width: 800px;       
-  margin: 50px auto;       
-  padding: 20px;
-  text-align: center;      
-  font-family: Arial, sans-serif;
+.about-section { 
+  max-width: 800px; 
+  margin: 50px auto; 
+  padding: 20px; 
+  font-family: Arial, sans-serif; 
+  position: absolute; 
 }
 
+.about-wrapper {
+   justify-content: center;
+   display: flex;
+   text-align: center;
+}
 .about-section h2 {
   font-size: 2rem;
   margin-bottom: 20px;
@@ -641,6 +693,9 @@ input {
   font-size: 1rem;
   line-height: 1.6;
   color: #333;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 @media(max-width: 480px) {
@@ -757,7 +812,8 @@ input {
   height: 30vh;
   width: 100%;
   background-color: rgb(60, 60, 60);
-  margin-top: 20px;
+  margin-top: 50px;
+  position: relative;
 }
 
 .footer h2{
