@@ -150,24 +150,27 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.btn-container{
-    margin: 20px;
-    display: flex;
-    justify-content: center;
+@media (max-width: 768px) {
+    .places-container {
+        padding: 0 20px; 
+    }
+
+    .places div {
+        flex: 0 0 48%;   
+        min-width: 48%;
+    }
+
+    .places {
+        gap: 15px;       
+    }
+
+    .places div img {
+        height: 180px;   
+    }
 }
 
-.btn-container button{
-    padding: 10px 30px;
-    font-size: 18px;
-    border-radius: 20px;
-    border: none;
-    background-color: red;
-    color: white;
-}
-
-.btn-container button:hover{
-    font-size: 20px;
-    background-color: blue;
+.places::-webkit-scrollbar {
+    display: none;
 }
 
 .bg-img{
@@ -199,6 +202,13 @@
     color: white;
     padding: 3px 8px;
     border-radius: 0px 10px 10px 0px;
+}
+
+@media (max-width: 768px){
+    .local-heading{
+        font-size: 25px;
+        padding: 8px;
+    }
 }
 
 .local-heading1{
@@ -255,6 +265,43 @@
     transform: translate(-50%, -50%);
 }
 
+.btn-container{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-container button{
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+.btn-container button:hover{
+    font-size: 20px;
+    background-color: blue;
+}
+
+@media (max-width: 768px) {
+    .local-trip {
+        flex-direction: column; 
+        padding: 0 20px;        
+        height: 420px;          
+        gap: 20px;              
+    }
+
+    .local-trip div {
+        height: 220px;          
+    }
+
+    .local-trip div p {
+        font-size: 30px;     
+    }
+}
+
 .international-trip { 
     display: flex; 
     height: 200px; 
@@ -287,7 +334,7 @@
     top: 50%; 
     left: 50%; 
     color: white; 
-    font-size: 50px; 
+    font-size: 30px; 
     font-weight: bold; 
     text-shadow: 1px 1px 5px rgba(0,0,0,0.7); 
     z-index: 2; 
