@@ -7,14 +7,14 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    height: 75vh;
+    height: 65vh;
     position: relative;
 }
 
 .banner img{
     object-fit: fill;
     width: 100%;
-    height: 75vh;
+    height: 65vh;
 }
 
 @media(max-width: 480px){
@@ -40,12 +40,12 @@
     top: 30%;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 50px;
+    font-size: 45px;
 
 }
 .main-heading span{
     color: white;
-    background-color: black;
+    background-color: red;
     padding: 5px 20px;
     border-radius: 30px;
 }
@@ -81,16 +81,117 @@
 
 .suggestion{
     padding: 5px 20px;
-    margin: 0 90px;
+    margin: 25px 130px;
     font-size: 30px;
-    background-color: red;
-    color: white;
     display: inline-block;
     border-radius: 5px 20px 5px 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.suggestion span{
+    color: red;
+}
+
 @media(max-width: 480px){
     .suggestion{
         font-size: 15px;
         margin: 25px 30px;
     }
 }
+
+.places-container {
+    width: 100%;
+    overflow: hidden;  
+    padding: 0 130px;  
+    box-sizing: border-box;
+}
+
+.places {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    padding: 0;
+    z-index: 10; 
+    padding-bottom: 15px;  
+}
+
+.places div {
+    flex: 0 0 31.5%; 
+    min-width: 31.5%;
+    height: 260px;
+    scroll-snap-align: start;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white; 
+    box-shadow: 0 10px 16px rgba(0,0,0,0.1);
+}
+
+.places::-webkit-scrollbar {
+    display: none;
+}
+
+.places div img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.places div img:hover{
+  transform: scale(1.65);
+  transition-duration:  1.5s ;
+}
+
+.places div p{
+  font-size: 18px;
+  margin: 15px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-container{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.btn-container button{
+    padding: 7px 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+.btn-container button:hover{
+    font-size: 20px;
+    background-color: blue;
+}
+
+.bg-img{
+    width: 100%;
+    object-fit: fill;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.bg-img img{
+    width: 50%;
+    object-fit: fill;
+    height: 480px;
+    opacity: 0.7;
+}
+
+.local-trip{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 220px;
+    gap: 30px;
+    background-color: red;
+    padding: 0px 130px;
+}
+
