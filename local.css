@@ -230,7 +230,7 @@
 @media (max-width: 768px) {
     .local-heading1 {
         padding: 0 20px;    
-        font-size: 18px;    
+        font-size: 16px;    
         text-align: center;
         text-align: start;
     }
@@ -311,6 +311,12 @@
     border: none;
     background-color: red;
     color: white;
+}
+
+@media (max-width: 768px){
+    .btn-container button{
+        font-size: 12px;
+    } 
 }
 
 .international-trip { 
