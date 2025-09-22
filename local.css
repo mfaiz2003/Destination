@@ -74,7 +74,7 @@
 
 @media(max-width: 480px){
     .heading{
-        font-size: 18px;
+        font-size: 15px;
         margin-top: 25px;
     }
 }
@@ -94,7 +94,7 @@
 
 @media(max-width: 480px){
     .suggestion{
-        font-size: 20px;
+        font-size: 17px;
         margin: 25px 30px;
         padding: 0 0px;
     }
@@ -363,18 +363,17 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { 
     .international-trip { 
-        padding: 0 20px;      
-        gap: 15px;          
-    }
-
-    .international-trip div {
-        flex: 0 0 70%;       
-        min-width: 70%;
-    }
-
-    .international-trip div p {
-        font-size: 20px;      
-    }
+        padding: 0 20px; 
+        gap: 15px; 
+        padding: 0 18px; 
+    } 
+    .international-trip div { 
+        flex: 0 0 70%;
+        min-width: 70%; 
+    } 
+    .international-trip div p { 
+        font-size: 20px; 
+    } 
 }
