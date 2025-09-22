@@ -309,8 +309,13 @@
     font-size: 18px;
     border-radius: 20px;
     border: none;
-    background-color: red;
+    background-color: black;
     color: white;
+}
+
+.btn-container button:hover{
+    transform: scale(1.1);
+    background-color: red;
 }
 
 @media (max-width: 768px){
@@ -319,18 +324,17 @@
     } 
 }
 
-.international-trip { 
-    display: flex; 
-    height: 200px; 
-    width: 100%; 
-    padding: 0 130px; 
-    gap: 30px; 
-    box-sizing: border-box; 
-    position: relative; 
+.international-trip .places-container { 
+        display: flex;
+    height: 200px;
+    width: 100%;
+    gap: 15px;
+    box-sizing: border-box;
+    position: relative;
     margin-top: 20px;
-    overflow-x: auto;         
-    scroll-snap-type: x mandatory; 
-    scroll-behavior: smooth;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;    padding: 0;
 }
 
 .international-trip div { 
