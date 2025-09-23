@@ -104,7 +104,7 @@
 
 .suggestion{
     padding: 5px 20px;
-    margin: 25px 130px;
+    margin: 15px 110px;
     font-size: 30px;
     display: inline-block;
     border-radius: 5px 20px 5px 20px;
@@ -249,7 +249,7 @@
 }
 
 .local-heading1{
-    padding: 0px 150px;
+    padding: 0px 130px;
     font-size: 23px;
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -400,7 +400,7 @@
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(0.5px);  
     -webkit-backdrop-filter: blur(0.5px);
-    pointer-events: none; /* ✅ overlay clicks/hover block nahi karega */
+    pointer-events: none; 
 }
 
 .international-trip::-webkit-scrollbar {
@@ -460,5 +460,94 @@
         transform: none;
     }
 }
+
+.testimonial{
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.testimonial h2{
+    color: white;
+    background-color: red;
+    padding: 3px 10px;
+    border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+    .testimonial h2 {
+        font-size: 1.3rem;
+        padding: 5px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .testimonial {
+        margin-top: 20px;
+        padding: 0 18px;
+    }
+
+    .testimonial h2 {
+        font-size: 1.1rem;
+        padding: 4px 12px;
+        border-radius: 10px;
+    }
+}
+
+.testimonial-1{
+    display: flex;
+    padding: 0 130px;
+    margin-top: 30px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.testimonial-2{
+    background-color: rgb(242, 227, 248);
+    border-radius: 20px 0px 20px 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100; 
+    color: #555;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: justify;
+}
+
+.name{
+    text-align: end;
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .testimonial-1 {
+    flex-direction: row;   
+    flex-wrap: wrap;       
+    padding: 0 18px;
+    gap: 15px;             
+    justify-content: center; 
+  }
+
+  .testimonial-2 {
+    font-size: 12px;
+    padding: 18px;
+    flex: 1 1 45%;         
+    min-width: 200px;      
+  }
+
+  .name {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+}
+
 
 
