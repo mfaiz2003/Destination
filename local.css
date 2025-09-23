@@ -390,8 +390,7 @@
     box-shadow: 0 10px 16px rgba(0,0,0,0.1);
 }
 
-.international-trip div::after,
-.local-trip div::after {
+.international-trip div::after{
     content: "";
     position: absolute;
     top: 0;
@@ -401,7 +400,7 @@
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(0.5px);  
     -webkit-backdrop-filter: blur(0.5px);
-    pointer-events: none;
+    pointer-events: none; /* ✅ overlay clicks/hover block nahi karega */
 }
 
 .international-trip::-webkit-scrollbar {
