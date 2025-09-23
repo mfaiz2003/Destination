@@ -3,10 +3,33 @@
     margin: 0;
 }
 
+.header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 70px;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+  font-size: larger;
+  list-style: none;
+  margin: 10px 0;
+  font-size: 15px;
+  padding: 10px 50px;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgba(175, 72, 72, 0.15); 
+  backdrop-filter: blur(30px); 
+  -webkit-backdrop-filter: blur(30px);
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
 .banner{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
     height: 65vh;
     position: relative;
 }
@@ -201,7 +224,7 @@
     width: 50%;
     object-fit: fill;
     height: 480px;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .local-heading{
@@ -228,7 +251,7 @@
 .local-heading1{
     padding: 0px 150px;
     font-size: 23px;
-    margin-top: 25px;
+    margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .local-heading1 span{
@@ -244,6 +267,10 @@
     }
 }
 
+.local{
+    background-color: rgb(249, 218, 206);
+    padding: 1px 0px;
+}
 .local-trip {
     display: flex;
     height: 320px;
@@ -252,7 +279,7 @@
     gap: 30px;          
     box-sizing: border-box; 
     position: relative;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .local-trip div {
@@ -343,7 +370,7 @@
 
 .international-trip {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     overflow-x: auto;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
@@ -352,8 +379,8 @@
 }
 
 .international-trip div {
-    flex: 0 0 18%; 
-    min-width: 18%;
+    flex: 0 0 18.5%; 
+    min-width: 18.5%;
     height: 200px;
     position: relative;
     scroll-snap-align: start;
@@ -396,7 +423,7 @@
     top: 50%;          
     left: 50%;         
     color: white;      
-    font-size: 30px;     
+    font-size: 25px;     
     font-weight: bold;   
     text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
     z-index: 2;     
