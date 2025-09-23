@@ -268,7 +268,7 @@
 }
 
 .local{
-    background-color: rgb(249, 218, 206);
+    background-color: rgb(245, 223, 215);
     padding: 1px 0px;
 }
 .local-trip {
@@ -401,6 +401,7 @@
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(0.5px);  
     -webkit-backdrop-filter: blur(0.5px);
+    pointer-events: none;
 }
 
 .international-trip::-webkit-scrollbar {
