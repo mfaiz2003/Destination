@@ -478,7 +478,7 @@
 
 @media (max-width: 768px) {
     .testimonial h2 {
-        font-size: 1.3rem;
+        font-size: 1.3px;
         padding: 5px 15px;
     }
 }
@@ -490,7 +490,7 @@
     }
 
     .testimonial h2 {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         padding: 4px 12px;
         border-radius: 10px;
     }
