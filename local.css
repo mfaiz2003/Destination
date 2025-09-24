@@ -44,12 +44,12 @@
     .banner{
         margin: 0;
         object-fit: fill;
-        height: 40vh;
+        height: 35vh;
         border-radius: 0;   
     }
 
     .banner img{
-        height: 40vh;
+        height: 35vh;
     }
 }
 
@@ -526,27 +526,26 @@
 
 
 @media (max-width: 768px) {
-  .testimonial-1 {
-    flex-direction: row;   
-    flex-wrap: wrap;       
-    padding: 0 18px;
-    gap: 15px;             
-    justify-content: center; 
-  }
+    .testimonial-1 {
+        padding: 0 18px; 
+    }
 
-  .testimonial-2 {
-    font-size: 14px;
-    padding: 18px;
-    flex: 1 1 45%;         
-    min-width: 200px;      
-  }
+    .testimonial-2{
+        flex: 0 0 42.5%;   
+        min-width: 42.5%;
+        height: 180px;
+        font-size: 13px;
+        padding: 20px 10px;
+    }
 
-  .name {
-    text-align: right;
-    margin-top: 10px;
-    font-size: 14px;
+     .name{
+        font-size: 13px;
+       margin-top: 10px;
+    }
+
+      .testimonial-2:nth-child(3) {
+    display: none;
   }
 }
-
 
 
