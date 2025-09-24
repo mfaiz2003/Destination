@@ -774,3 +774,9 @@
     font-weight: normal; 
   }
 }
+
+.footer{
+    height: 120px;
+    background-color: black;
+    margin-top: 25px;
+}
