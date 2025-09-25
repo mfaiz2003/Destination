@@ -522,6 +522,7 @@
     padding-left: 15px;
     text-align: justify;
     margin-bottom: 30px;
+    font-weight: lighter;
 }
 
 .name{
@@ -705,7 +706,7 @@
 }
 
 .benefit h2{
-    font-size: 35px;
+    font-size: 28px;
 }
 
 .benefit span{
@@ -723,11 +724,11 @@
 .benefit-1 p{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
 }
 
 .benefit-1 span{
     font-weight: lighter;
+    font-size: 16px;
 }
 
 @media (max-width: 768px) {
@@ -746,7 +747,7 @@
   }
 
   .benefit-1 p {
-    font-size: 16px;   
+    font-size: 15px;   
   }
 }
 
@@ -767,11 +768,12 @@
   }
 
   .benefit-1 p {
-    font-size: 12px;  
+    font-size: 14px;  
   }
 
   .benefit-1 span {
-    font-weight: normal; 
+    font-weight: lighter;
+    font-size: 13px;
   }
 }
 
@@ -784,7 +786,7 @@
 .footer-paragraph {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
     gap: 20px; 
 }
@@ -813,5 +815,35 @@
 
     .footer-block p{
         font-size: 11px;
+    }
+
+    .footer-paragraph {
+        margin-top: 0;
+        flex-direction: column;
+        gap: 20px; 
+        padding: 0 px
+    }
+}
+
+.footer-1{
+    height: 90px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer-1 h2{
+    padding-top: 35px;
+    font-size: 20px;
+}
+
+@media (max-width: 480px){
+    .footer-1 h2{
+        font-size: 14px;
+        padding-top: 20px;
+    }
+
+    .footer-1{
+        height: 60px;
     }
 }
