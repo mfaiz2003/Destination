@@ -820,8 +820,7 @@
     .footer-paragraph {
         margin-top: 0;
         flex-direction: column;
-        gap: 20px; 
-        padding: 0 px
+        gap: 20px;
     }
 }
 
