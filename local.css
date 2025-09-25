@@ -515,14 +515,13 @@
     background-color: white;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400; 
     padding-bottom: 30px;
     padding-top: 30px;
     padding-right: 15px;
     padding-left: 15px;
     text-align: justify;
     margin-bottom: 30px;
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 .name{
@@ -544,6 +543,7 @@
         height: 130px;
         font-size: 13px;
         padding: 20px 10px;
+        font-weight: 300;
     }
 
      .name{
@@ -700,6 +700,7 @@
   }
 }
 
+
 .benefit{
    padding: 0 130px;
    margin-top: 25px;
@@ -727,7 +728,7 @@
 }
 
 .benefit-1 span{
-    font-weight: lighter;
+    font-weight: 400;
     font-size: 16px;
 }
 
@@ -772,7 +773,7 @@
   }
 
   .benefit-1 span {
-    font-weight: lighter;
+    font-weight: 300;
     font-size: 13px;
   }
 }
