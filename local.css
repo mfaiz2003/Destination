@@ -111,10 +111,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.suggestion span{
-    color: red;
-}
-
 @media(max-width: 480px){
     .suggestion{
         font-size: 17px;
@@ -253,9 +249,6 @@
     font-size: 23px;
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
-}
-.local-heading1 span{
-    color: red;
 }
 
 @media (max-width: 768px) {
