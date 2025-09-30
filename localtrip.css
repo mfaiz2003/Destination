@@ -75,15 +75,21 @@
     line-height: 1.2; 
     font-size: 45px;
 }
+
+.main-heading h2 {
+    white-space: nowrap;
+}
 .main-heading h2 span{
     background-color: brown;
-    padding: 0 20px;
+    padding:  3px 10px;
     border-radius: 10px;
+    white-space: nowrap;
 }
 @media (max-width: 768px) {
     .main-heading { 
-        font-size: 25px; 
-        bottom: 100px;
+        font-size: 22px;
+        padding: 0 18px;
+        bottom: 350px; 
     }
 }
 
