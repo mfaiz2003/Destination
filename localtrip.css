@@ -94,20 +94,20 @@
     margin: 50px 130px;
     box-sizing: border-box; 
     position: relative;
-    background-color: white; 
     padding: 20px 50px;
+    background-color: white; 
     border-radius: 10px; 
     box-shadow: 0 10px 16px rgba(0,0,0,0.1);
 }
 .trip-card {
     display: flex;
     gap: 20px; 
+    overflow-x: auto;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
     padding: 0;
-    overflow-x: auto;
-    padding: 30px 15px;
     z-index: 10; 
+    padding: 15px 0;
     -webkit-overflow-scrolling: touch; 
 }
 .trip-card div {
@@ -141,33 +141,34 @@
 .trip-container h2{
     font-size: 40px;
 }
-
 .trip-container p{
     opacity: 0.5px;
     color: grey;
     font-size: 20px;
 }
-@media (max-width: 768px) {
-    .trip-container {
-        margin: 30px 18px;
-        padding: 15px 0px;
-        background-color: transparent;
-        box-shadow: none;
-    }
-    .trip-container h2 {
-        font-size: 28px;
-    }
-    .trip-container p {
-        font-size: 16px;
-    }
-    .trip-card div {
-        flex: 0 0 200px;
-        height: 120px;
-    }
-    .trip-card div img {
-        width: 200px;
-        height: 120px;
-    }
+@media (max-width: 768px) { 
+    .trip-container { 
+        margin: 30px 18px; 
+        padding: 15px 0px; 
+        margin-top: 0; 
+        background-color: transparent; 
+        box-shadow: none; 
+    } 
+    .trip-container h2 { 
+        font-size: 20px; 
+    } 
+    .trip-container p { 
+        font-size: 15px; 
+        margin-top: 5px; 
+    } 
+    .trip-card div { 
+        flex: 0 0 100px; 
+        height: 120px; 
+    } 
+    .trip-card div img { 
+        width: 100%; 
+        height: 120px; 
+    } 
 }
 
 
@@ -228,25 +229,27 @@
     color: grey;
     font-size: 20px;
 }
-@media (max-width: 768px) {
-    .trip-container1 {
-        margin: 30px 18px;
-        padding: 15px 18px;
-    }
-    .trip-container1 h2 {
-        font-size: 28px;
-    }
-    .trip-container1 p {
-        font-size: 16px;
-    }
-    .trip-card1 div {
-        flex: 0 0 200px;
-        height: 160px;
-    }
-    .trip-card1 div img {
-        width: 200px;
-        height: 160px;
-    }
+@media (max-width: 768px) { 
+    .trip-container1 { 
+        margin: 30px 18px; 
+        padding: 15px 18px; 
+        margin-top: 20px;
+    } 
+    .trip-container1 h2 { 
+        font-size: 20px; 
+    } 
+    .trip-container1 p { 
+        font-size: 15px; 
+        margin-top: 5px; 
+    } 
+    .trip-card1 div { 
+        flex: 0 0 200px; 
+        height: 160px; 
+    } 
+    .trip-card1 div img { 
+        width: 200px; 
+        height: 160px; 
+    } 
 }
 
 
@@ -262,7 +265,8 @@
     .trip-intro {
         font-size: 22px;
         padding: 0 22px; 
-        margin-top: -30px;
+        margin-top: -20px;
+        
     }
 }
 
