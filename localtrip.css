@@ -76,7 +76,7 @@
     font-size: 45px;
 }
 .main-heading h2 span{
-    background-color: red;
+    background-color: brown;
     padding: 0 20px;
     border-radius: 10px;
 }
@@ -258,7 +258,7 @@
     font-size: 30px;
 }
 .trip-intro h3 span{
-    color: red;
+    color: brown;
 }
 @media (max-width: 768px) {
     .trip-intro {
