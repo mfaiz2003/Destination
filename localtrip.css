@@ -557,7 +557,7 @@
     .trip-card2 div { 
         flex: 0 0 125px; 
         height: 125px;
-        border-radius: 50px;
+        border-radius: 10px;
     } 
     .trip-card2 div img { 
         width: 100%; 
