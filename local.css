@@ -189,8 +189,8 @@
     }
 
     .places div {
-        flex: 0 0 50%;   
-        min-width: 50%;
+        flex: 0 0 41.5%;   
+        min-width: 41.5%;
         height: 130px;
     }
 
