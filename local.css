@@ -183,6 +183,8 @@
         margin: 30px 18px; 
         padding: 15px 18px; 
         margin-top: 20px;
+        background-color: transparent;
+        
     }
 
     .places div {
