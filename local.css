@@ -181,10 +181,11 @@
 @media (max-width: 768px) {
     .places-container1 { 
         margin: 30px 18px; 
-        padding: 15px 18px; 
+        padding: 15px 0px; 
         margin-top: 20px;
         background-color: transparent;
-        
+        box-shadow: none;
+
     }
 
     .places div {
