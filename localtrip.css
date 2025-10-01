@@ -474,11 +474,12 @@
     bottom: 5px;
     text-align: center;
     position: relative;
+    font-weight: normal;
     top: -12px;
 }
 .category-section4 div button { 
   display: none;
-} 
+  } 
 }
 
 
