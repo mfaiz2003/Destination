@@ -205,7 +205,7 @@
     scroll-snap-align: start;
     border-radius: 10px;
     overflow: hidden;
-    background-color: rgb(173, 29, 29); 
+   
     position: relative;
 }
 .trip-card1::-webkit-scrollbar {
@@ -511,7 +511,6 @@
     scroll-snap-align: start;
     border-radius: 10px;
     overflow: hidden;
-    background-color: rgb(173, 29, 29); 
     position: relative;
 }
 .trip-card2::-webkit-scrollbar {
