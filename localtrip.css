@@ -627,7 +627,7 @@
     .intro, .intro2 {
         flex-direction: column;
         margin: 0 18px;
-        gap: 20px;
+        gap: 10px;
     }
     .intro div, .intro2 div {
         width: 100%;
