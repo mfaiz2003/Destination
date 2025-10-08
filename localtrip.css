@@ -43,7 +43,7 @@
 .main-banner div{
     width: 100%;
 }
-.main-banner div img{
+.main-banner div video{
     height: 60vh;
     width: 100%;
     object-fit: cover;
@@ -55,7 +55,7 @@
     .main-banner div {
         width: 100%;
     }
-    .main-banner div img {
+    .main-banner div video {
         height: 30vh; 
     }
 }
