@@ -324,7 +324,7 @@
 @media (max-width: 768px) {
     .local-container{
         margin: 30px 18px; 
-        padding: 15px 18px; 
+        padding: 15px 5px; 
         margin-top: 20px;
     }
 
