@@ -7,7 +7,10 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-right: 70px;
+    position: absolute;
+    z-index: 10;
+    margin-left: 20px;
+    margin-top: 15px;
 }
 
 .nav {
@@ -16,14 +19,12 @@
   font-size: larger;
   list-style: none;
   margin: 10px 0;
-  font-size: 15px;
+  font-size: 17px;
   padding: 10px 50px;
   border-radius: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  background: rgba(175, 72, 72, 0.15); 
-  backdrop-filter: blur(30px); 
-  -webkit-backdrop-filter: blur(30px);
-  border: 1px solid rgba(255, 255, 255, 0.3); 
+  color: white; 
+
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
@@ -34,14 +35,14 @@
 .banner{
     display: flex;
     justify-content: center;
-    height: 65vh;
+    height: 70vh;
     position: relative;
 }
 
-.banner img{
+.banner video{
     object-fit: fill;
     width: 100%;
-    height: 65vh;
+    height: 70vh;
 }
 
 @media(max-width: 480px){
@@ -52,7 +53,7 @@
         border-radius: 0;   
     }
 
-    .banner img{
+    .banner video{
         height: 35vh;
     }
 }
@@ -64,7 +65,7 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     z-index: 10;
-    top: 30%;
+    top: 25%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 45px;
@@ -146,9 +147,9 @@
 }
 
 .places div {
-    flex: 0 0 21.5%; 
-    min-width: 21.5%;
-    height: 260px;
+    flex: 0 0 25.5; 
+    min-width: 25.5%;
+    height: 230px;
     scroll-snap-align: start;
     border-radius: 15px;
     overflow: hidden;
@@ -162,7 +163,7 @@
 
 .places div img{
     width: 100%;
-    height: 200px;
+    height: 180px;
     object-fit: cover;
 }
 
@@ -173,8 +174,9 @@
 
 .places div p{
   font-size: 18px;
-  margin: 20px;
+  margin: 10px;
   text-align: center;
+  font-weight: 400;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
