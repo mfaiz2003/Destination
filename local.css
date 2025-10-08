@@ -24,25 +24,26 @@
   border-radius: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: white; 
-
+  backdrop-filter: blur(30px); 
+  -webkit-backdrop-filter: blur(30px);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
 .container{
-    background-color: rgb(237, 235, 235);
+    
 }
 
 .banner{
     display: flex;
     justify-content: center;
-    height: 70vh;
+    height: 80vh;
     position: relative;
 }
 
 .banner video{
     object-fit: fill;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
 }
 
 @media(max-width: 480px){
@@ -130,7 +131,7 @@
     box-sizing: border-box; 
     position: relative;
     padding: 20px 30px;
-    background-color: white; 
+    background-color: rgb(245, 245, 245);
     border-radius: 10px; 
     box-shadow: 0 10px 16px rgba(0,0,0,0.1);
 }
@@ -151,9 +152,9 @@
     min-width: 25.5%;
     height: 230px;
     scroll-snap-align: start;
-    border-radius: 15px;
+    border-radius: 5px;
     overflow: hidden;
-    background-color: rgb(244, 244, 244); 
+    background-color: white; 
     box-shadow: 0 10px 16px rgba(0,0,0,0.1);
 }
 
@@ -263,8 +264,8 @@
     box-sizing: border-box; 
     position: relative;
     padding: 20px 30px;
-    background-color: white; 
     border-radius: 10px; 
+    background-color: rgb(245, 245, 245);
     box-shadow: 0 10px 16px rgba(0,0,0,0.1);
 
 }
@@ -285,10 +286,11 @@
 .local-trip div {
     flex: 1;           
     overflow: hidden;  
-    border-radius: 40px; 
+    border-radius: 10px; 
     position: relative;
     box-shadow: 0 10px 16px rgba(0,0,0,0.1);
 }
+
 
 .local-trip div img {
     width: 100%;     
@@ -314,6 +316,10 @@
     text-align: center;   
     transform: translate(-50%, -50%);
 }
+.local-trip div:hover p{
+    color: red;
+
+}
 
 @media (max-width: 768px) {
     .local-container{
@@ -329,7 +335,7 @@
 
     .local-trip div {
         height: 180px; 
-        border-radius: 15px;         
+        border-radius: 5px;         
     }
 
     .local-trip div p {
@@ -346,7 +352,7 @@
 .btn-container button{
     padding: 10px 30px;
     font-size: 18px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     background-color: black;
     color: white;
@@ -355,6 +361,7 @@
 .btn-container button:hover{
     transform: scale(1.1);
     background-color: red;
+    border-radius: 5px;
 }
 
 @media (max-width: 768px){
@@ -386,7 +393,7 @@
     height: 200px;
     position: relative;
     scroll-snap-align: start;
-    border-radius: 15px;
+    border-radius: 10px;
     overflow: hidden;
     background-color: white; 
     box-shadow: 0 10px 16px rgba(0,0,0,0.1);
@@ -436,9 +443,10 @@
   @media (max-width: 768px) {
 
     .international-trip div {
-        flex: 0 0 50%;   
-        min-width: 50%;
+        flex: 0 0 40%;   
+        min-width: 40%;
         height: 130px;
+        border-radius: 5px;
     }
 
     .international-trip {
@@ -476,28 +484,20 @@
     color: white;
     background-color: brown;
     padding: 3px 10px;
-    border-radius: 15px;
+
 }
 
 @media (max-width: 768px) {
     .testimonial h2 {
-        font-size: 1.3px;
-        padding: 5px 15px;
+        font-size: 15px;
+        border-radius: 5px;
     }
-}
-
-@media (max-width: 480px) {
     .testimonial {
-        margin-top: 20px;
-        padding: 0 18px;
-    }
-
-    .testimonial h2 {
-        font-size: 1.2rem;
-        padding: 4px 12px;
-        border-radius: 10px;
+     
+        margin: 0 18px;
     }
 }
+
 
 .testimonial-1{
     display: flex;
@@ -508,10 +508,10 @@
 }
 
 .testimonial-2{
-    border-radius: 20px;
-    background-color: white;
+     box-shadow: 0 10px 16px rgba(0,0,0,0.1);
+     background-color: white;
+     border-radius: 15px 0 15px 0;
     color: rgb(110, 110, 110);
-    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 30px;
     padding-top: 30px;
@@ -565,21 +565,21 @@
     display: flex;
     justify-content: center;
     height: 130px;
-    border-radius: 40px;  
+    border-radius: 10px;  
 }
 
 .img1 {
     width: 100%;
     height: 130px;
     object-position: top;
-    border-radius: 30px 0 0 30px;
+    border-radius: 10px 0 0 10px;
 }
 
 .img2 {
     width: 100%;
     height: 130px;
     object-position: top;
-    border-radius: 0 30px 30px 0;
+    border-radius: 0 10px 10px 0;
 }
 
 .mini-banner div {
@@ -604,14 +604,14 @@
     width: 100%;
     height: 80px;
     object-position: top;
-    border-radius: 30px 0 0 30px;
+    border-radius: 5px 0 0 5px;
 }
 
    .img2 {
     width: 100%;
     height: 80px;
     object-position: top;
-    border-radius: 0 30px 30px 0;
+    border-radius: 0 5px 5px 0;
 }
 }
 
@@ -744,6 +744,9 @@
         margin-top: 0;
         flex-direction: column;
         gap: 20px;
+    }
+    .footer{
+        padding: 30px 20px;
     }
 }
 
